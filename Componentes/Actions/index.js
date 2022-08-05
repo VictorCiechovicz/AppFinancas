@@ -1,12 +1,9 @@
 import React from 'react'
-import {
-  View,
-  Text,
-  TouchableOpacity,
-  ScrollView
-} from 'react-native'
+import { View, Text, TouchableOpacity, ScrollView } from 'react-native'
 
 import { AntDesign } from '@expo/vector-icons'
+
+import estilos from './estilos'
 
 export default function Actions() {
   return (
@@ -52,4 +49,3 @@ export default function Actions() {
     </ScrollView>
   )
 }
-
